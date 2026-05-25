@@ -1,11 +1,13 @@
-# lazyvid
+# lazyvid - React lazy video component
 
-Lazy-load `<video>` sources with predictable behavior.
+Lazy-load HTML5 `<video>` sources in React with predictable behavior.
 
 `lazyvid` renders an empty `<video>` element and injects `<source>` tags only when the element enters the viewport.  
 Until then — nothing downloads.
 
 It relies on IntersectionObserver for visibility tracking and lets the browser handle native format selection (`webm`, `mp4`, etc).
+
+Use it for React lazy video, HTML5 video lazy loading, background videos, hero videos, and media-heavy pages where video should not download before it is visible.
 
 ~2 KB (ESM bundle). Zero dependencies. Full TypeScript support.
 
@@ -22,6 +24,11 @@ It relies on IntersectionObserver for visibility tracking and lets the browser h
 ```
 
 Single component. No additional setup.
+
+## Release status
+
+`lazyvid` is officially released as `1.0.0`.
+The test suite passes, so the package is ready for stable use.
 
 ## Why?
 

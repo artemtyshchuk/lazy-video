@@ -1,7 +1,7 @@
 {
   "name": "lazyvid",
-  "version": "0.1.3",
-  "description": "Lightweight lazy-loading video component with IntersectionObserver",
+  "version": "1.0.0",
+  "description": "React lazy video component that lazy-loads HTML5 video sources with IntersectionObserver",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,9 +23,17 @@
     "format:check": "prettier --check ."
   },
   "keywords": [
+    "lazyvid",
     "video",
     "lazy-loading",
+    "lazy-load-video",
+    "video-lazy-loading",
+    "lazy-video",
+    "react-video",
+    "react-lazy-video",
+    "html5-video",
     "intersection-observer",
+    "performance",
     "react"
   ],
   "author": "Artem Tyshchuk",
@@ -49,6 +57,7 @@
     "jsdom": "^28.1.0",
     "prettier": "^3.8.1",
     "react": "^19.0.0",
+    "react-dom": "^19.2.6",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
     "vitest": "^4.0.18"
